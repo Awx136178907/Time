@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Time</string>
+    <string name="app_tx">头像</string>
+    <string name="app_nc">昵称</string>
+    <string name="app_qm">签名</string>
+    <string name="app_yx">邮箱</string>
+    <string name="app_xg">修改密码</string>
+    <string name="app_sc">收藏</string>
+    <string name="app_ql">清理缓存</string>
+    <string name="app_tc">退出登入</string>
+</resources>
