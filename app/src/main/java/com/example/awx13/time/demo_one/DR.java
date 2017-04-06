@@ -91,6 +91,8 @@ public class DR extends Activity implements OnClickListener {
 
             public void done(BmobUser bmobUser, BmobException e) {
                 if (e == null) {
+//                    String account = pref.getString("account", "");
+//                    String password = pref.getString("password", "");
                     Toast.makeText(DR.this, "登入成功", Toast.LENGTH_SHORT).show();
                     //通过BmobUser user = BmobUser.getCurrentUser()获取登录成功后的本地用户信息
                     //如果是自定义用户对象MyUser，可通过MyUser user = BmobUser.getCurrentUser(MyUser.class)获取自定义用户信息
